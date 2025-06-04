@@ -6,6 +6,7 @@ https://docs.ultralytics.com/models/yoloe/#textvisual-prompt-models
 docker build . -t rag
 ```
 ```sh
+docker rm rag
 docker run --gpus all -it -v /home/raus/YOLOECLIP:/pic --name rag rag
 ```
 ```sh
