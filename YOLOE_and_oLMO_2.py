@@ -7,7 +7,7 @@ model = YOLOE("yoloe-11l-seg-pf.pt")
 
 results = model.predict(
     "Photo 3.jpg",
-    show=True,
+    show=False,
     save=True,
     show_conf=False
 )
