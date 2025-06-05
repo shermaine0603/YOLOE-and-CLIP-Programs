@@ -2,6 +2,11 @@
 
 https://docs.ultralytics.com/models/yoloe/#textvisual-prompt-models
 
+Run this when you open the terminal.
+```sh
+xhost +local:root
+```
+
 ```sh
 docker build . -t rag
 ```
