@@ -6,8 +6,8 @@ import torch
 model = YOLOE("yoloe-11l-seg-pf.pt")
 
 results = model.predict(
-    "Photo 3.jpg",
-    show=False,
+    "Photo 5.jpg",
+    show=True,
     save=True,
     show_conf=False
 )
