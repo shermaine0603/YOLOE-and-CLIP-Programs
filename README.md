@@ -25,3 +25,6 @@ cd YOLOE-and-CLIP-Programs
 ```sh
 python3 YOLOE_and_oLMO_2.py
 ```
+```sh
+docker cp rag:/YOLOE-and-CLIP-Programs/runs/ /home/raus/YOLOECLIP
+```
